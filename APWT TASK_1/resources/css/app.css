@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar-items {
+        @apply space-x-3 flex justify-center items-center rounded-xl px-6 py-[13px] hover:cursor-pointer hover:bg-[#411941] hover:transition hover:brightness-75;
+    }
+    .card {
+        @apply w-[25%] p-5 flex flex-col items-center rounded-xl shadow-md bg-gradient-to-br from-[#411941] to-[#020d20];
+    }
+}
