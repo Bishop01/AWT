@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    @apply border border-black text-sm;
+}
+
+.input-style {
+    @apply w-full h-[32px] rounded-md pl-2 bg-[#17355c] outline-none;
+}
+
+body {
+    @apply bg-gradient-to-br from-[#012e67] to-[#461a45] text-white;
+}
+
+.card {
+    @apply bg-gradient-to-br from-[#461a45] via-[#012e67] to-[#461a45] shadow-xl border border-[#012e67] rounded-xl;
+}
+
+.error {
+    @apply text-red-500;
+}
+
+:-webkit-autofill {
+    box-shadow: 0 0 0 100px #17355c inset;
+    -webkit-text-fill-color: #fff;
+}
